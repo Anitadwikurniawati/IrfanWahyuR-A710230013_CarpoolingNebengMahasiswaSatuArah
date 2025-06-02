@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carpooling Mahasiswa Satu Arah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Carpooling Mahasiswa Satu Arah</h1>
+    <p>Temukan dan tawarkan perjalanan untuk mahasiswa satu tujuan</p>
+  </header>
+
+  <nav>
+    <a href="#daftar">Daftar</a>
+    <a href="#login">Login</a>
+    <a href="#cari">Cari Perjalanan</a>
+    <a href="#ulasan">Ulasan</a>
+  </nav>
+
+  <main>
+    <section id="daftar">
+      <h2>Pendaftaran Akun</h2>
+      <form>
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+        <label>Password:</label><br>
+        <input type="password" required minlength="8"><br><br>
+        <button class="button">Daftar</button>
+      </form>
+    </section>
+
+    <section id="login">
+      <h2>Login Pengguna</h2>
+      <form>
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+        <label>Password:</label><br>
+        <input type="password" required><br><br>
+        <button class="button">Login</button>
+      </form>
+    </section>
+
+    <section id="cari">
+      <h2>Cari Perjalanan</h2>
+      <form>
+        <label>Asal:</label><br>
+        <input type="text"><br><br>
+        <label>Tujuan:</label><br>
+        <input type="text"><br><br>
+        <button class="button">Cari</button>
+      </form>
+      <p><em>Hasil pencarian akan ditampilkan di sini.</em></p>
+    </section>
+
+    <section id="ulasan">
+      <h2>Ulasan dan Rating</h2>
+      <p>Ulasan dari pengguna:</p>
+      <ul>
+        <li>⭐⭐⭐⭐⭐ - "Pengemudi ramah dan tepat waktu!"</li>
+        <li>⭐⭐⭐⭐ - "Perjalanan nyaman dan sesuai rute."</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Carpooling Mahasiswa - Semua Hak Dilindungi
+  </footer>
+</body>
+</html>
